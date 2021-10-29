@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./fonts/proxima-nova/stylesheet.css">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <!-- OwlCarousel CSS styles -->
+  <link rel="stylesheet" href="./libs/owlCarousel2/assets/owl.carousel.min.css">
+  <!-- // OwlCarousel CSS styles -->
+
+  <!-- Подключение шрифтов -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Lexend:wght@400;500;600&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
+  <!-- // Подключение шрифтов-->
+  <title>E-COMMERCEUPLABS projects</title>
+</head>
+
+<body>
+  <!-- шапка сайта -->
+  <header class="header">
+    <div class="container">
+      <div class="header__row">
+        <a href="#!" class="logo">
+          <img src="./img/logo-header/logo.svg" alt="Logo">
+          <span>Xpress</span>
+        </a>
+
+        <nav class="nav">
+          <ul>
+            <li><a href="#!" class="header__menu-link">Home</a></li>
+            <li><a href="#!" class="header__menu-link">About</a></li>
+            <li><a href="#!" class="header__menu-link">Blog</a></li>
+            <li><a href="#!" class="header__menu-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header__col">
+          <div class="search-form__wrapper">
+            <form class="search-form">
+              <input type="text" class="header__search" placeholder="Search">
+              <button class="form-btn" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+
+          <div class="product-cart">
+            <span class="product-cart__icon">
+              <i class="fas fa-shopping-cart"></i>
+            </span>
+            <span class="product__cart-number">2</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="header-center">
+        <div class="header__text-content">
+          <div class="header__title">
+            <h3 class="content__title">Trendy Collection</h3>
+            <h1 class="title">Shop For What You Want</h1>
+
+            <div class="header__desc">
+              <p class="desc__title">Shops are necessary places, where people go to buy
+                their necessary things. Shopping is something which is loved</p>
+              <button class="content__button">Start Shopping</button>
+            </div>
+          </div>
+
+          <img src="./img/header/collection-woman.png" alt="Woman">
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- //шапка сайта -->
+
+  <!-- Карусель продукции -->
+  <section class="product-slider">
+    <div class="container">
+      <div class="product-wrapper">
+        <div class="owl-carousel owl-theme" id="product-carousel">
+          <img src="img/catagories/man.jpg" alt="Man">
+          <img src="img/catagories/women.jpg" alt="Women">
+          <img src="img/catagories/kids.jpg" alt="Kids">
+          <img src="img/catagories/man.jpg" alt="Man">
+          <img src="img/catagories/women.jpg" alt="Women">
+          <img src="img/catagories/kids.jpg" alt="Kids">
+        </div>
+
+        <button class="nav-button nav-button-left">
+          <svg width="54" height="54" viewBox="0 0 54 54" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle class="icon-circle" cx="27" cy="27" r="27" />
+            <g class="icon-path">
+              <path d="M35 27H19" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M25 33L19 27L25 21" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </g>
+          </svg>
+        </button>
+
+        <button class="nav-button nav-button-right">
+          <svg width="54" height="54" viewBox="0 0 54 54" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle class="icon-circle" cx="27" cy="27" r="27" />
+            <g class="icon-path">
+              <path d="M19 27H35" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M29 21L35 27L29 33" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </g>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <!-- // Карусель продукции -->
+  </section>
+
+
+  <!-- новые товары -->
+  <section class="product__card">
+    <div class="container">
+      <div class="product__card-title">
+        <h2 class="title-1">New Arrival</h2>
+        <a href="#" class="card-link">VIEW ALL</a>
+      </div>
+
+      <div class="product__card-photo">
+        <img class="photo-1" src="./img/products/new/01.jpg" alt="Img">
+        <img class="photo-2" src="./img/products/new/02.jpg" alt="Img">
+        <img class="photo-3" src="./img/products/new/03.jpg" alt="Img">
+        <img class="photo-4" src="./img/products/new/04.jpg" alt="Img">
+        <img class="photo-5" src="./img/products/new/05.jpg" alt="Img">
+      </div>
+    </div>
+  </section>
+  <!-- // новые товары -->
+
+  <!-- топ продукция -->
+  <section class="top-product-slider">
+    <div class="container">
+      <h2 class="title-1">Top Selling Products</h2>
+      <p class="desc__title text-center">We too believe that shopping is relaxing is thing
+        as whenever I get too stressed or tensed. I often go for shopping.</p>
+
+      <!-- Карусель топ продукции -->
+      <div class="product-wrapper">
+        <div class="owl-carousel owl-theme-red" id="product-carousel-1">
+          <img src="./img/products/top/01.jpg" alt="Img">
+          <img src="./img/products/top/02.jpg" alt="Img">
+          <img src="./img/products/top/03.jpg" alt="Img">
+          <img src="./img/products/top/04.jpg" alt="Img">
+          <img src="./img/products/top/05.jpg" alt="Img">
+        </div>
+
+        <button class="nav-button nav-button-left">
+          <svg width="54" height="54" viewBox="0 0 54 54" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle class="icon-circle" cx="27" cy="27" r="27" />
+            <g class="icon-path">
+              <path d="M35 27H19" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M25 33L19 27L25 21" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </g>
+          </svg>
+        </button>
+
+        <button class="nav-button nav-button-right">
+          <svg width="54" height="54" viewBox="0 0 54 54" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle class="icon-circle" cx="27" cy="27" r="27" />
+            <g class="icon-path">
+              <path d="M19 27H35" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M29 21L35 27L29 33" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </g>
+          </svg>
+        </button>
+      </div>
+      <!-- // Карусель топ продукции -->
+    </div>
+  </section>
+  <!-- топ продукция -->
+
+  <!-- наши специальности -->
+  <section class="section-speciality">
+    <div class="container">
+
+      <!-- шапка секции наши специальности -->
+      <header class="section-speciality__header">
+        <h2 class="section-speciality__title title-1">Our Speciality</h2>
+        <p class="desc__title">We too believe that shopping is relaxing is thing as
+          whenever I get too stressed or tensed. I often go for </p>
+      </header>
+      <!-- // шапка секции наши специальности  -->
+
+      <div class="section-speciality__row">
+
+        <!-- Карточка услуг -->
+        <div class="card">
+          <img src="./img/speciality/servis.svg" alt="Servis" class="card__img">
+          <h4 class="card__title">24/7 Services</h4>
+          <p class="card__text">Shops are necessary places,a where people go to buy is on
+            their </p>
+        </div>
+        <!-- Карточка услуг -->
+
+        <div class="card">
+          <img src="./img/speciality/exchange.svg" alt="Exchange" class="card__img">
+          <h4 class="card__title">Exchange Opportunites</h4>
+          <p class="card__text">Shops are necessary places,a where people go to buy is on
+            their </p>
+        </div>
+        <!-- Карточка услуг -->
+
+        <div class="card">
+          <img src="./img/speciality/percentages.svg" alt="percentages" class="card__img">
+          <h4 class="card__title">More Then Offer</h4>
+          <p class="card__text">Shops are necessary places,a where people go to buy is on
+            their </p>
+        </div>
+        <!-- Карточка услуг -->
+      </div>
+    </div>
+  </section>
+  <!-- // наши специальности -->
+
+  <!-- топ бренды -->
+  <section class="top-brand">
+    <div class="container">
+      <!-- шапка секции топ бренд -->
+      <header class="brand-title">
+        <h2 class="title-1">Our Top Brand</h2>
+        <a href="#" class="brand-link">VIEW ALL</a>
+      </header>
+      <!-- // шапка секции топ бренд  -->
+
+      <div class="brand__row">
+        <img src="./img/brands/01.jpg" alt="img">
+        <img src="./img/brands/02.jpg" alt="img">
+        <img src="./img/brands/03.jpg" alt="img">
+        <img src="./img/brands/04.jpg" alt="img">
+      </div>
+    </div>
+  </section>
+  <!-- //  топ бренды -->
+
+  <!-- блог пост -->
+  <section class="blog">
+    <div class="container">
+
+      <div class="blog__title">
+        <h2 class="title-1">Recent Blog Posts</h2>
+        <p class="desc__title text-right">Shops are necessary places,a where people go to
+          buy is on of the necessary their </p>
+      </div>
+
+
+      <div class="blog__row">
+
+        <!-- карточка поста -->
+        <div class="blog__card">
+          <img src="./img/blog-posts/01.jpg" alt="Img" class="blog__img">
+
+          <div class="blog-card__content">
+            <h4 class="blog-card__title">Foog Parfume</h4>
+            <p class="blog-card__text">I too believe that shopping is relaxing is thing as
+              whenever I get too stressed or tensed. I often go for shopping. </p>
+          </div>
+
+          <div class="blog-card__desc">
+            <a href="#" class="blog-link">SEE MORE</a>
+            <span>Jul 17 2020 </span>
+          </div>
+
+        </div>
+        <!-- // карточка поста -->
+
+        <!-- карточка поста -->
+        <div class="blog__card">
+          <img src="./img/blog-posts/02.jpg" alt="Img" class="blog__img">
+
+          <div class="blog-card__content">
+            <h4 class="blog-card__title">White Musk Lotion</h4>
+            <p class="blog-card__text">I too believe that shopping is relaxing is thing as
+              whenever I get too stressed or tensed. I often go for shopping. </p>
+          </div>
+
+          <div class="blog-card__desc">
+            <a href="#" class="blog-link">SEE MORE</a>
+            <span>Jul 17 2020 </span>
+          </div>
+
+        </div>
+        <!-- // карточка поста -->
+
+        <!-- карточка поста -->
+        <div class="blog__card">
+          <img src="./img/blog-posts/03.jpg" alt="Img" class="blog__img">
+
+          <div class="blog-card__content">
+            <h4 class="blog-card__title">Cosmatics Products</h4>
+            <p class="blog-card__text">I too believe that shopping is relaxing is thing as
+              whenever I get too stressed or tensed. I often go for shopping. </p>
+          </div>
+
+          <div class="blog-card__desc">
+            <a href="#" class="blog-link">SEE MORE</a>
+            <span>Jul 17 2020 </span>
+          </div>
+
+        </div>
+        <!-- // карточка поста -->
+      </div>
+
+    </div>
+  </section>
+  <!-- // блог пост -->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__row">
+        <div class="footer__logo">
+          <a href="#!">
+            <img src="./img/footer/footer-logo.svg" alt="Logo">
+          </a>
+        </div>
+        <p class="footer-desc">Contrary to popular is not simply random text. It has </p>
+
+        <div class="social-icons">
+          <a href="#!" class="social-icons__item" target="_blank">
+            <svg class="social__item--facebook color-fb" viewBox="0 0 6 12"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4.50865 1.88807H5.51562V0.0800711C5.3419 0.0554338 4.74442 0 4.04859 0C2.59672 0 1.60216 0.941427 1.60216 2.67172V4.26414H0V6.28534H1.60216V11.371H3.56647V6.28582H5.10383L5.34787 4.26461H3.56601V2.87213C3.56647 2.28795 3.71906 1.88807 4.50865 1.88807Z" />
+            </svg>
+          </a>
+          <a href="#!" class="social-icons__item" target="_blank"> <img
+              src="./img/footer/instagram.svg" alt="Instagram"></a>
+          <a href="#!" class="social-icons__item" target="_blank"> <img
+              src="./img/footer/twitter.svg" alt="Twitter"></a>
+          <a href="#!" class="social-icons__item" target="_blank"> <img
+              src="./img/footer/linkedIn.svg" alt="LinkedIn"></a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Vendor scripts -->
+  <script src="./libs/jquery/jquery-3.6.0.min.js"></script>
+  <script src="./libs/owlCarousel2/owl.carousel.min.js"></script>
+
+
+  <!-- User scripts -->
+  <script src="./js/main.js"></script>
+
+  <script src="https://kit.fontawesome.com/2b42896c21.js" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.social-icons a {
+    margin-right: 15px;
+}
+
+.social-icons__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.social__item--facebook {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    fill: #fff;
+}
+
+.color-fb:hover {
+    fill: #0077ff;
+}
